@@ -13,7 +13,7 @@ import java.awt.geom.Ellipse2D;
 
 import javax.swing.JFrame;
 
-public class JoySim_ extends JFrame implements KeyListener, MouseListener, MouseMotionListener {
+public class CopyOfJoySim_ extends JFrame implements KeyListener, MouseListener, MouseMotionListener {
     
     private static final long serialVersionUID = 2269971701250845501L;
     
@@ -55,7 +55,7 @@ public class JoySim_ extends JFrame implements KeyListener, MouseListener, Mouse
     
     private int dragState;
     
-    public JoySim_() {
+    public CopyOfJoySim_() {
         this.joy1X = 0;
         this.joy1Y = 0;
         
@@ -82,10 +82,6 @@ public class JoySim_ extends JFrame implements KeyListener, MouseListener, Mouse
         this.addMouseMotionListener(this);
         
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-    }
-    
-    public static void main(String[] args) {
-        new JoySim_().setVisible(true);
     }
     
     public void calculate() {
