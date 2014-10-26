@@ -1,4 +1,4 @@
-package com.gmail.tylerfilla.ftc5703;
+package com.gmail.tylerfilla.ftc5703.joysim.controller;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -33,7 +33,7 @@ public class Controller {
     
     private int buttonState;
     
-    public Controller(int controller) {
+    Controller(int controller) {
         this.controller = controller;
         this.frame = new ControllerFrame();
         
@@ -183,9 +183,9 @@ public class Controller {
         
         private static final int JOYSTICK_SIZE = 100;
         
-        private static final int JOYSTICK_1_POS_X = 130;
+        private static final int JOYSTICK_1_POS_X = 128;
         private static final int JOYSTICK_1_POS_Y = 40;
-        private static final int JOYSTICK_2_POS_X = 302;
+        private static final int JOYSTICK_2_POS_X = 300;
         private static final int JOYSTICK_2_POS_Y = 40;
         
         private static final int JOYSTICK_1_CENTER_X = JOYSTICK_1_POS_X + JOYSTICK_SIZE / 2;

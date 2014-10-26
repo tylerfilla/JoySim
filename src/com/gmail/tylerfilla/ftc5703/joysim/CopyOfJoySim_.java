@@ -1,4 +1,4 @@
-package com.gmail.tylerfilla.ftc5703;
+package com.gmail.tylerfilla.ftc5703.joysim;
 
 import java.awt.Color;
 import java.awt.Graphics;
